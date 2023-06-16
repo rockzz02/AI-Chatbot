@@ -27,7 +27,7 @@ def chatbot():
         engine="text-davinci-002",
         prompt=prompt,
         temperature=0.5,
-        max_tokens=60,
+        max_tokens=2000,
         top_p=1,
         frequency_penalty=0,
         stop=["\nUser: ", "\nChatbot: "]
