@@ -1,0 +1,32 @@
+form {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: #a7c1fb73;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 30px;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+}
+
+form input {
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    padding: 20px
+}
+
+form button {
+    border: none;
+    background: rgb(255, 255, 0, 0);
+    width: 5px;
+    margin: 5px;
+    position: relative;
+    left: -10px;
+}

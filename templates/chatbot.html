@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="history">
+        {% for history in chat_history %}
+            <p class="userChat" style="margin: 5px"><strong>You: </strong> {{ history[0] }} </p>
+            <p class="botChat" style="margin: 5px"><strong>Chatbot: </strong> {{ history[1] }} </p>
+        {% endfor %}
+    </div>
+{% endblock %}
